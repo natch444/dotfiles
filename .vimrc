@@ -4,6 +4,7 @@
 :colorscheme default
 :syntax on 
 :set rnu 
+:set ruler
 
 :set ttymouse=sgr
 
@@ -14,3 +15,4 @@
 :set cursorline
 
 :inoremap jj <Esc>
+
