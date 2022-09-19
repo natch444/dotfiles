@@ -15,4 +15,4 @@
 :set cursorline
 
 :inoremap jj <Esc>
-
+:autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
