@@ -35,6 +35,9 @@ bindsym XF86MonBrightnessUp exec brightnessctl s 5%+
 bindsym XF86AudioPlay exec playerctl play-pause
 
 bindsym F9 exec i3lock -i /home/natch/Documents/wp/lockpicture.png --tiling 
+#bindsym F9 exec blurlock 
+
+bindsym Print exec import /home/natch/cap.png
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -143,7 +146,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Me quitte pas bb' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
