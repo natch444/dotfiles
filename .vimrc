@@ -6,7 +6,7 @@ set number
 set ruler
 
 set colorcolumn=79
-set textwidth=79
+"set textwidth=79
 set cursorline
 
 set ttymouse=sgr
