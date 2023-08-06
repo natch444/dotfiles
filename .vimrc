@@ -28,7 +28,10 @@ set list
 set listchars=tab:>─,eol:¬,trail:\ ,nbsp:¤
 
 inoremap jj  <Esc>
+nnoremap <C-t> <Esc>:vertical botright term<cr>
+nnoremap <C-s> :w <CR>
 au VimEnter * silent !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 au VimLeave * silent !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 
 set clipboard=unnamedplus
+
