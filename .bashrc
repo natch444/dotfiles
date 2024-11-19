@@ -73,7 +73,7 @@ if ${use_color} ; then
 		PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
 	else
 		#PS1='\[\033[01;34m\][natch444@23040098\[\033[01;37m\] \W\[\033[01;34m\]] -\[\033[00m\] '
-		PS1='\[\033[01;34m\][\u@\h\[\033[01;37m\] \W\[\033[01;34m\]] -\[\033[00m\] '
+		PS1='\[\033[01;34m\][\u@\h\[\033[01;37m\] \W\[\033[01;34m\]] \\o/\[\033[00m\] '
 	fi
 
         alias diff='diff --color=auto'
@@ -87,6 +87,9 @@ if ${use_color} ; then
         alias sumt='sudo umount /mnt'
         alias g='g++ *.cpp'
         alias typeright='~/playground/typeright/typeright'
+        alias d-docker='sudo systemctl start docker'
+        alias rm='rm -vi'
+        alias emacs='vim'
 
 else
 	if [[ ${EUID} == 0 ]] ; then
@@ -144,4 +147,4 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
-export PATH="$PATH:/home/natch/.dotnet/"
+setxkbmap -layout us altgr-intl -option caps:escape
