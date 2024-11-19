@@ -1,0 +1,60 @@
+live_config_reload = true
+working_directory = "None"
+
+[colors]
+#background_opacity = 0.1
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#45484e"
+blue = "#505e86"
+cyan = "#579997"
+green = "#63a282"
+magenta = "#a85b85"
+red = "#bf5b56"
+white = "#cdd2d0"
+yellow = "#f4cd7e"
+
+[colors.normal]
+black = "#282a2e"
+blue = "#34446f"
+cyan = "#2c817e"
+green = "#2ba265"
+magenta = "#a83976"
+red = "#bf352e"
+white = "#b2bdb9"
+yellow = "#f4be52"
+
+[colors.primary]
+background = "#1d1f21"
+foreground = "#c5c8c6"
+
+[colors.vi_mode_cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[cursor]
+style = "Block"
+unfocused_hollow = true
+vi_mode_style = "Block"
+
+[debug]
+log_level = "Info"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "Inconsolata"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+dynamic_title = true
+opacity = 0.8
+
